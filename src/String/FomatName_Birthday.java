@@ -19,7 +19,7 @@ public class FomatName_Birthday {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
-        System.out.print(fomatName(name));
+        System.out.print(fomatName(name)+ "\n");
         String ngaysinh = sc.nextLine();
         StringBuilder sb = new StringBuilder(ngaysinh);
         if (sb.charAt(1) == '/') sb.insert(0, '0');
